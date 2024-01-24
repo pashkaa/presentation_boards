@@ -4,7 +4,7 @@ import cors from "cors";
 
 export const app = express()
 
-const whitelist = ['http://localhost:3000', 'http://example2.com'];
+const whitelist = ['https://pashkaa.github.io', 'http://example2.com'];
 
 // ✅ Enable pre-flight requests
 app.options('*', cors());
